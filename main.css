@@ -1,0 +1,164 @@
+body {
+    background: black;
+    font-family: trebuchet ms;
+    color: white;
+    margin: 0px;
+}
+header{
+     width: 100%;
+	 height: 100px;
+	 background: #333;
+     text-align: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+img.bord{
+    border: 3px solid #8f4d01;
+	border-radius: 10px 15% 15% 10px;
+}
+h1{
+	font-family: trebuchet ms;
+    color: #c46900;
+	font-size: 36px;
+    text-align: center;
+}
+p{
+	font-family: trebuchet ms;
+    color: white;
+	font-size: 20px;
+    text-align: center;
+}
+.foot{
+	font-family: trebuchet ms;
+    color: white;
+	font-size: 16px;
+    text-align: center;
+}
+.bullet{
+     width: 35%;
+	 height: 100px;
+	 background:#c46900;
+     border-radius: 0% 30% 30% 0%;
+}
+.name{
+     width: 100%;
+	 height: 100px;
+	 background:#c;
+     
+}
+a:hover {
+    color: black; 
+}
+section{
+    background-color: black;
+    text-align:center; 
+} 
+button{ 
+    padding: 15px 25px;
+    background: #c46900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px 30% 30% 10px;
+	margin: 0 auto;
+}
+button.reverse{
+	padding: 15px 25px;
+    background: #c46900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 30% 10px 10px 30%;
+	margin: 0 auto;
+}
+button:hover{
+    color: black; 
+}	
+	
+footer {
+    text-align: center;
+    background-color: #1a1818;
+    color: #fff;
+    padding: 10px 0;
+	margin-top: 25px;
+	text-align: left;
+}
+.border_form {
+    border: 1px solid #ccc;
+    padding: 10px;
+	background: black;
+    margin-bottom: 20px;
+    width: 300px;
+    margin: 0 auto; /* Добавьте этот стиль для центрирования по горизонтали */
+    text-align: center; /* Добавьте этот стиль для выравнивания текста по центру */
+}
+.input_button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 5px solid #c46900;
+    border-radius: 5px;
+	background: black;
+	color: white;
+	font-family: trebuchet ms;
+	font-size: 25px;
+    text-align: center; /* Добавьте этот стиль для выравнивания текста внутри input по центру */
+}
+/* стили таблиц */
+.table-bordered{
+	margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+	margin-top: 10px;
+	border: 1px solid #c46900;
+	border-radius: 10px 30% 30% 10px;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #2b2b2b;
+    padding: 10px;
+    text-align: center;
+}
+th.meanwhile{
+	background: #c46900;
+	border-radius: 10px 0px 0px 0px;
+}
+th.meantwo{
+	background: #333;
+
+	border: none;
+}
+th.deluxe{
+	font-family: trebuchet ms;
+    color: #a30808;
+	border: none;
+	background: #2b001f;
+}
+td.deluxe{
+	background: #210610;
+}
+th.gold{
+	font-family: trebuchet ms;
+    color: #ffe603;
+	border: none;
+	background: #2b1d00;	
+	
+}
+td.gold{
+	background: #2b2400;
+}	
+.border_form{
+    border: 1px solid #c46900;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin: 0 auto; /* Добавьте этот стиль для центрирования по горизонтали */
+    text-align: center;
+}
+.border_form legend {
+    font-weight: bold;
+}
