@@ -87,27 +87,6 @@ footer {
 	margin-top: 25px;
 	text-align: left;
 }
-.border_form {
-    border: 1px solid #ccc;
-    padding: 10px;
-	background: black;
-    margin-bottom: 20px;
-    width: 300px;
-    margin: 0 auto; /* Добавьте этот стиль для центрирования по горизонтали */
-    text-align: center; /* Добавьте этот стиль для выравнивания текста по центру */
-}
-.input_button {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 5px solid #c46900;
-    border-radius: 5px;
-	background: black;
-	color: white;
-	font-family: trebuchet ms;
-	font-size: 25px;
-    text-align: center; /* Добавьте этот стиль для выравнивания текста внутри input по центру */
-}
 /* стили таблиц */
 .table-bordered{
 	margin: 0 auto;
@@ -151,14 +130,3 @@ th.gold{
 td.gold{
 	background: #2b2400;
 }	
-.border_form{
-    border: 1px solid #c46900;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 300px;
-    margin: 0 auto; /* Добавьте этот стиль для центрирования по горизонтали */
-    text-align: center;
-}
-.border_form legend {
-    font-weight: bold;
-}
