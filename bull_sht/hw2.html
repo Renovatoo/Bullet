@@ -2,18 +2,20 @@
 <html>
 <head>
 	<meta charSet="UTF-8">
-	<title>ПРЕДЗАКАЖИ СЕЙЧАС!</title>
-	<link rel="stylesheet" href="main.css">
+	<title>Предзаказ</title>
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="icon" type="image/x-icon" href="img/favicon2.png">
+	<meta name="author" content="SHKamenev">
+	<meta name="description" content="Оформи предзаказ!">
 </head>
 <body>
+<!-- хороший комментарий -->
 <header>    
      <div class = "bullet">
      </div>
      <div class = "name">
      </div>
   </header>
-  
 	<section>
             <table class="table-bordered">
                 <thead>
@@ -65,20 +67,34 @@
                 </tbody>
             </table>
         </section>
-	<h1>Зарегистрируйтесь для оформления предзаказа</h1>
-
-    <fieldset class="border_form">
-        <legend>Аккаунт</legend>
-        <label for="email">Почта</label>
-        <input class="input_button" placeholder="bulletgame@gmail.com">
-
-        <label for="password">Пароль</label>
-        <input class="input_button" placeholder="biggerweapons19">
-    </fieldset>
-	<a href="index.html"><button class = "reverse">Обратно</button></a>
+			<h1>Оставьте свои данные и мы свяжемся с вами</h1>
+			<form>
+					<fieldset>
+						<label>ФИО</label>
+						<input class="input_button" placeholder="Иванов Иван Иванович">
+						<br><br>
+						<label>Номер карты</label>
+						<input class="input_button" placeholder="biggerweapons19">
+					</fieldset>
+				</form>
+			<select id="Цвет">
+				<optgroup label="Выберите издание">
+					<option>Standart</option>
+					<option>Deluxe</option>
+					<option>Gold Premium</option>
+				</optgroup>
+	</select>
+	
+	<a href="hw1.html"><button class = "reverse">Обратно</button></a>
 	<footer>
-        <p class="foot">© 2023 I need more bullets.inc</p>
-		<p class="foot">All rights reserved</p>
+	 <nav>
+      <a href= #>Пользовательское соглашение</a>
+      <a href= #>Магазины</a>
+      <a href= #>Служба поддержки</a>
+	  <p class="foot">© 2023 I need more bullets.inc</p>
+	  <p class="foot">All rights reserved</p>
+    </nav>
+        
   </footer>
 </body>    
 </html>
