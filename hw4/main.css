@@ -1,0 +1,87 @@
+#one{
+    width: 330px;
+    border: 40px solid gray;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#two{
+    width: 330px;
+    border: 40px solid gray;
+    box-sizing: border-box; 
+}
+body{
+    width: 600px;
+}
+h2{
+    margin-bottom: 20px;
+}
+img{
+    width: 330px;
+}
+.first{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: gray;
+}
+.second{
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: gray;
+}
+.third{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: gray;
+
+}
+.p_margin{
+    margin-top: 110px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+#main{
+    width: 50%;
+    margin: 15px auto;
+    text-align: left;
+}
+#header{
+	width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+#nav{
+    padding: 10px;
+    background-color: yellow;
+}
+li{
+    display: inline-block;
+}
+#section{
+    width: 660px;
+    margin: 20px;
+    float: left;
+}   
+#aside{
+    width: 220px;
+    padding: 15px 0px;
+    margin: 20px;
+    background-color: burlywood;
+    float: left;
+}
+#footer{
+    text-align: center;
+    margin: 20px;
+    border-top  : 2px solid black;
+    clear: both;
+}
+header, main, section, footer, aside, article, nav{
+    display: block;
+}
